@@ -146,7 +146,6 @@ double object_size_rec(SEXP x, Environment base_env, std::set<SEXP>& seen) {
 
     default:
        Rcout << "type: " << TYPEOF(x);
-      stop("Unimplemented type");
   }
 
   // Rcout << "type: " << TYPEOF(x) << " size: " << size << "\n";
